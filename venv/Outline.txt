@@ -1,0 +1,29 @@
+To build: Game that illustrates the procedural nature of worldbuilding
+1. Story:
+    a. You wake up in a field with no memories.
+    b. You explore the world collecting food and money.
+    c. You move around a grid, north, south, east, west.
+    d. You interact with the environment and people at each location
+    e. No point to the game except for demonstrating the progressive generation.
+
+2. What I need to make:
+    a. First screen you spawn in.
+    b.
+
+3. Progressive generation elements:
+    a. You go to a new square and it can be one of 5 types
+        1. Field
+        2. Farm
+        3. Forest
+        4. Town
+    b. When you spawn in a field it creates the 4 spaces next to you.
+        1. There is a roll done, between 1-6. Each of them construct a 4 series depending on the tile type
+        2. Field
+            a. 1 - Field x 3 - Forest x 1
+            b. 2 - Field x 3 - Farm x 1
+            c. 3 - Field x 3 - Town x 1
+            d. 4 - Field x 2 - Farm x 1 - Town x 1
+            e. 5 - Field x 2 - Town x 1 - Hills x 1
+            3. 6 - Field x 2 - Forest x 2
+        3. Farm
+            a. 1 -
